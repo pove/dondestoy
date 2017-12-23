@@ -4,4 +4,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
+  <TextView
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/info"
+    android:padding="20dp"
+    android:gravity="center"/>
+  <Button
+      android:text="@string/locationButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/locationButton"/>
+  <Button
+      android:text="@string/locationForceButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/locationForceButton"/>
 </LinearLayout>
